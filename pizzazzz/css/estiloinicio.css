@@ -1,0 +1,101 @@
+#principal
+{width: 900px;
+height: 900px;
+margin: auto;
+background-color:#190707;
+height: 70px;
+border-radius:10px 10px 10px 10px;
+box-shadow:0px 0px 10px #FFFFFF inset;
+}
+
+header
+{width:570px;
+	height:100px;
+	
+}
+#logo
+{
+	width:900px;
+	height:130px;
+	background: ;
+
+}
+body
+{margin:2;}
+	
+
+ul
+{list-style-type:none;
+margin:00;
+padding: 0;
+text-align:center;
+
+}
+#menu>li
+{display: inline-block;
+padding: 00px;
+margin: 0px 200px 10px 10px;}
+
+.panel
+{
+
+	background-color:rgb(7%, 42% 38%);
+color:#FF0000;
+width: 00px;
+height:00px;
+border-radius:100px 50px 50px 50px;
+box-shadow: 15px 0px 30px #610B0B inset, 15px 0px 50px #A4A4A4;
+padding-top:0px;
+position: relative;
+transition: all ease 2s;
+transform-style:preserve-3d;
+top:-85px;}
+
+
+.panel:hover
+{
+	
+}
+.front
+{
+	backface-visibility: hidden;
+}
+.front>img
+{
+	margin-bottom:10px; 
+}
+.back
+{
+	position: absolute;
+	top:¨10px;
+	transform:rotateY(1deg) translateZ(100PX);
+	backface-visibility: hidden;
+}
+.back>ul>li
+{
+	background-color;
+	border-radius:10px 10px 10px 10px;
+	box-shadow: 0px 0px 10px  #FFFFFF  inset, 0px 0px 30px ;
+	width:500px;
+	padding:10px;
+	margin-top: 70PX;
+	transition: all ease 0.5s;
+	top:50px
+}
+.back>ul>li:hover
+{transform: scale(1.2);	
+	cursor: pointer;
+	box-shadow: 0px 0px 0px hsl(171,100%,102%), 0px #610B0B 0px 0px #610B0B,0px 0px 20px #FFFFFF inset;
+	border-radius: 10px;
+
+
+}
+.back>ul>li:active
+{transform: scale(1.2) translateY(3px);
+	box-shadow: 0px 0px 30px hsl(171,53%,42%), 0px 5px 5px #000, 0px 0px 3px #FFFFFF inset;
+	border-radius: 30px;
+}
+
+
+.
+

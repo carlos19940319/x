@@ -1,0 +1,173 @@
+#principal
+{width: 900px;
+height: 1000px;
+margin: auto;
+background-color:#190707;
+height: 30px;
+border-radius:0px 0px 20px 20px;
+box-shadow:0px 0px 10px #FFFFFF inset;
+}
+
+header
+{width:900px;
+	height:100px;
+	
+}
+#logo
+{
+	width:900px;
+	height:100px;
+	background: ;
+
+}
+body
+{margin:2;}
+	
+
+ul
+{list-style-type:none;
+margin:0;
+padding: 0;
+text-align:center;
+
+}
+#menu>li
+{display: inline-block;
+padding: 0px;
+margin: 0px 10px 0px 10px;}
+
+.panel
+{
+
+	background-color:rgb(7%, 42% 38%);
+color:#FF0000;
+width: 123px;
+height:100px;
+border-radius:50px 50px 50px 50px;
+box-shadow: 15px 0px 30px #0000FF inset, 15px 0px 50px #A4A4A4;
+padding-top:60px;
+position: relative;
+transition: all ease 2s;
+transform-style:preserve-3d;
+top:-85px;}
+
+
+.panel:hover
+{
+	transform:rotateY(180deg);
+	animation:animacion ease 2s forwards
+}
+.front
+{
+	backface-visibility: hidden;
+}
+.front>img
+{
+	margin-bottom:10px;
+}
+.back
+{
+	position: absolute;
+	top:5px;
+	transform:rotateY(180deg) translateZ(100PX);
+	backface-visibility: hidden;
+}
+.back>ul>li
+{
+	background-color;
+	border-radius:0px 30px 0px 30px;
+	box-shadow: 0px 0px 10px  #FFFFFF  inset, 0px 0px 30px ;
+	width:125px;
+	margin-top: 20PX;
+	transition: all ease 0.2s;
+}
+.back>ul>li:hover
+{transform: scale(1.2);	
+	cursor: pointer;
+	box-shadow: 0px 0px 0px hsl(171,53%,42%), 0px 20px 10px #000,0px 0px 20px #FFFFFF inset;
+	border-radius: 100px;
+
+
+}
+.back>ul>li:active
+{transform: scale(1.2) translateY(3px);
+	box-shadow: 0px 0px 30px hsl(171,53%,42%), 0px 5px 5px #000, 0px 0px 3px #FFFFFF inset;
+	border-radius: 30px;
+}
+
+
+
+	{margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ }
+
+.content-all{
+	width:400px;
+	margin: auto;
+	perspective: 1000%;
+	position: relative;
+	margin-top: 20PX;
+}
+.content-carrousel{
+	width:100%;
+	position: absolute;
+	animation: rotar 	25s infinite linear;
+	transform-style: preserve-3d;
+
+}
+.content-carrousel:hover{
+	animation-play-state: paused;
+	cursor: pointer;
+
+}
+.content-carrousel figure{
+	width:%;
+	height: 160%;
+	position: absolute;
+	box-shadow: px 0px 0px hsl(171,53%,42%), 0px 20px 10px #000,0px 0px 20px #FFFFFF;
+	
+	
+}
+
+
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg)translateZ(400px);}
+.content-carrousel figure:nth-child(2){transform: rotateY(45deg)translateZ(400px);}
+.content-carrousel figure:nth-child(3){transform: rotateY(90deg)translateZ(400px);}
+.content-carrousel figure:nth-child(4){transform: rotateY(135deg)translateZ(400px);}
+.content-carrousel figure:nth-child(5){transform: rotateY(180deg)translateZ(400px);}
+.content-carrousel figure:nth-child(6){transform: rotateY(225deg)translateZ(400px);}
+.content-carrousel figure:nth-child(7){transform: rotateY(270deg)translateZ(400px);}
+.content-carrousel figure:nth-child(8){transform: rotateY(315deg)translateZ(400px);}
+.content-carrousel figure:nth-child(9){transform: rotateY(360deg)translateZ(400px);}
+
+
+
+.content-carrousel img{
+	height: 180px;
+	width: 80%;
+border-radius:0px 100px 0px 100px;BORDES;
+box-shadow: 0px 0px 0px #0000FF inset, 	0px 0px 20px #A4A4A4;COLOSR.;content: 
+padding-top:80px;
+position: relative;
+transition: all ease 6s;
+transform-style:preserve-3d;
+top:-20px;
+
+transform:rotateY(180deg);
+	animation:animacion ease 2s forwards
+
+
+	
+transition: all 600ms;}
+
+.content-carrousel img:hover{transform: scale(1.8) translateY(-20px);
+}
+
+
+@keyframes rotar{
+	from{
+		transform: rotateY(30deg);
+	}
+		to{
+			transform:rotateY(360deg);}
